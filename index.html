@@ -6,16 +6,574 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Link To CSS file -->
   <link rel="stylesheet" href="CSS/style.css">
+  <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+  <!-- Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Link To FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <!-- Link To JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
   <title>JourneyWise</title>
 </head>
 
 <body>
+  <!-- Nav Bar -->
+  <nav class="nav-bar">
+    <div class="container">
+      <div class="nav-social">
+        <span><a href=""><i class="fa-brands fa-facebook-f"></i></a></span>
+        <span><a href=""><i class="fa-brands fa-x-twitter"></i> </a></span>
+        <span><a href=""><i class="fa-brands fa-linkedin-in"></i></a></span>
+        <span><a href=""><i class="fa-brands fa-instagram"></i></a></span>
+      </div>
+      <a href="/" class="nav-logo"><img src="assets/logo.png" alt="">JourneyWise</a>
+      <button class="nav-btn"><img src="assets/menu-icon.svg" alt=""></button>
+    </div>
+    <div class="nav-link">
+      <ul>
+        <li><a href="/" class="active">Home</a></li>
+        <li><a href="/">Destinations</a></li>
+        <li><a href="/">Activities</a></li>
+        <li><a href="/">Guides</a></li>
+        <li><a href="/">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Hero -->
+  <section class="hero container">
+    <div class="hero-content">
+      <ul id="myList">
+        <li>
+          <h1>Welcome to JourneyWise</h1>
+          <p>Embark on epic adventures, discover hidden gems, and create memories that last a lifetime with JourneyWise.
+            Whether you're craving adrenaline-pumping excursions or serene nature escapes, we've got you covered.</p>
+          <button class="btn">Explore Now</button>
+        </li>
+        <li>
+          <h1>Unleash Your Wanderlust</h1>
+          <p>Get ready to explore the world's most breathtaking destinations and experience the thrill of adventure with
+            JourneyWise. From soaring mountaintops to pristine beaches, let your journey begin here.</p>
+          <button class="btn">Start Exploring</button>
+        </li>
+      </ul>
+    </div>
+
+  </section>
+  <!-- Gallery -->
+  <section class="gallery container">
+    <div class="gallery-wrapper">
+      <div class="img-wrapper">
+        <img src="assets/g01.jpg" alt="" class="main-img">
+        <div class="img-content">
+          <div class="img-icons">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-plus"></i></span>
+          </div>
+          <div class="user">
+            <div class="author">
+              <img src="assets/user2.webp" alt="">
+              <div class="name">
+                <h4>aisvri</h4>
+                <p>Avaliable for hire</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="img-wrapper">
+        <img src="assets/g02.jpg" alt="" class="main-img">
+        <div class="img-content">
+          <div class="img-icons">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-plus"></i></span>
+          </div>
+          <div class="user">
+            <div class="author">
+              <img src="assets/user5.webp" alt="">
+              <div class="name">
+                <h4>aisvri</h4>
+                <p>Avaliable for hire</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="img-wrapper">
+        <img src="assets/g03.jpg" alt="" class="main-img">
+        <div class="img-content">
+          <div class="img-icons">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-plus"></i></span>
+          </div>
+          <div class="user">
+            <div class="author">
+              <img src="assets/user3.webp" alt="">
+              <div class="name">
+                <h4>aisvri</h4>
+                <p>Avaliable for hire</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="img-wrapper">
+        <img src="assets/g04.jpg" alt="" class="main-img">
+        <div class="img-content">
+          <div class="img-icons">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-plus"></i></span>
+          </div>
+          <div class="user">
+            <div class="author">
+              <img src="assets/user.webp" alt="">
+              <div class="name">
+                <h4>aisvri</h4>
+                <p>Avaliable for hire</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="img-wrapper">
+        <img src="assets/g05.jpg" alt="" class="main-img">
+        <div class="img-content">
+          <div class="img-icons">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-plus"></i></span>
+          </div>
+          <div class="user">
+            <div class="author">
+              <img src="assets/user5.webp" alt="">
+              <div class="name">
+                <h4>aisvri</h4>
+                <p>Avaliable for hire</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="img-wrapper">
+        <img src="assets/g06.jpg" alt="" class="main-img">
+        <div class="img-content">
+          <div class="img-icons">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-plus"></i></span>
+          </div>
+          <div class="user">
+            <div class="author">
+              <img src="assets/user4.webp" alt="">
+              <div class="name">
+                <h4>aisvri</h4>
+                <p>Avaliable for hire</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="img-wrapper">
+        <img src="assets/g07.jpg" alt="" class="main-img">
+        <div class="img-content">
+          <div class="img-icons">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-plus"></i></span>
+          </div>
+          <div class="user">
+            <div class="author">
+              <img src="assets/user3.webp" alt="">
+              <div class="name">
+                <h4>aisvri</h4>
+                <p>Avaliable for hire</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="img-wrapper">
+        <img src="assets/g08.jpg" alt="" class="main-img">
+        <div class="img-content">
+          <div class="img-icons">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-plus"></i></span>
+          </div>
+          <div class="user">
+            <div class="author">
+              <img src="assets/user2.webp" alt="">
+              <div class="name">
+                <h4>aisvri</h4>
+                <p>Avaliable for hire</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="img-wrapper">
+        <img src="assets/g09.jpg" alt="" class="main-img">
+        <div class="img-content">
+          <div class="img-icons">
+            <span><i class="fa-solid fa-heart"></i></span>
+            <span><i class="fa-solid fa-plus"></i></span>
+          </div>
+          <div class="user">
+            <div class="author">
+              <img src="assets/user.webp" alt="">
+              <div class="name">
+                <h4>aisvri</h4>
+                <p>Avaliable for hire</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Hot Destinations -->
+  <section class="hot-destinations">
+    <h3>Hot new tours!</h3>
+    <div class="hot-destinations-wrapper container">
+      <div class="hot-card-wrapper">
+        <div class="hot-card">
+          <img src="assets/hot01.jpg" alt="">
+          <h5>Formula 1 Singapore Grand Prix</h5>
+          <hr>
+          <div class="lo-date">
+            <span class="lo"><i class="fa-solid fa-location-dot"></i>Borneo, Malaysia & Singapore</span>
+            <span>4 days</span>
+          </div>
+        </div>
+      </div>
+      <div class="hot-card-wrapper">
+        . <div class="hot-card">
+          <img src="assets/hot02.png" alt="">
+          <h5>Canada White Christmas & Northern Lights</h5>
+          <hr>
+          <div class="lo-date">
+            <span class="lo"><i class="fa-solid fa-location-dot"></i>Canada, Canada, Alaska & USA</span>
+            <span>17 days</span>
+          </div>
+        </div>
+      </div>
+      <div class="hot-card-wrapper">
+        <div class="hot-card">
+          <img src="assets/hot03.jpg" alt="">
+          <h5>Vic Falls, Cape Town & Kruger Super Deal</h5>
+          <hr>
+          <div class="lo-date">
+            <span class="lo"><i class="fa-solid fa-location-dot"></i>Africa, Madagascar & Mauritius, South Africa,
+              Zimbabwe</span>
+            <span>14 days</span>
+          </div>
+        </div>
+      </div>
+      <div class="hot-card-wrapper">
+        <div class="hot-card">
+          <img src="assets/hot04.jpg" alt="">
+          <h5>Elephant Paths Safari – Zimbabwe Botswana</h5>
+          <hr>
+          <div class="lo-date">
+            <span class="lo"><i class="fa-solid fa-location-dot"></i>Africa, Madagascar & Mauritius, Botswana,
+              Zimbabwe</span>
+            <span>11 days</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+  <hr class="section-end">
+  <!-- About -->
+  <section class="about container">
+    <div class="about-left">
+      <h2>Specialists in:</h2>
+      <p>Specialists in Canada, Alaska, USA, Africa, Mauritius, Madagascar, Borneo, Malaysia, Brunei, Turkey, Egypt,
+        Jordan, South America, Antarctica, Australia and New Zealand.
+
+      </p>
+      <img src="assets/world.jpg" alt="">
+      <h2>Latest Offers:</h2>
+      <img src="assets/offer.jpg" alt="">
+    </div>
+    <div class="about-right">
+      <h2>Creating Affordable Quality Travel Experiences</h2>
+      <p>At Adventure Destinations we are adventure by destination not by style of travel. With over 70 years travel
+        experience in promoting and selling Canada, Alaska, USA, Africa, Mauritius, Madagascar, Borneo, Malaysia,
+        Brunei, Turkey, Egypt, Jordan, South America, Antarctica, Australia and New Zealand. We know we can offer you
+        the expertise that you would expect in planning a trip of a lifetime to any of our destinations. We provide
+        qualified and experienced travel services.
+
+      </p>
+      <p>We, and our staff, continue to travel to our specialised areas ensuring we are constantly updating our product
+        knowledge and providing the best ground operators in each destination.
+
+      </p>
+      <p>Adventure Destinations has developed a product range that is dedicated to ensuring that we offer “the best
+        value for money” travel experiences and holidays to suit the needs of all travellers. Our philosophy is that it
+        “shouldn’t cost the earth to see the world”. Our product range is “Affordable and Flexible”.
+
+      </p>
+      <p>We deliver the very best attention to detail and ensure that your holiday with Adventure Destinations is a
+        wonderful and rewarding experience. Our aim is to make sure that your first holiday with Adventure Destinations
+        is not your last.
+
+      </p>
+      <p>With so many exciting and interesting destinations in our product range, you can sit back and enjoy planning
+        your holidays for many years to come. Don’t forget to look out for new destinations to be introduced to our
+        current product range.
+
+      </p>
+      <p>We look forward to welcoming you on an Adventure Destinations holiday, after all, every holiday should be an
+        experience!
+      </p>
+    </div>
+  </section>
+  <hr class="section-end">
+
+  <!-- Destination -->
+  <section class="destination">
+    <div class="destination-head">
+      <div class="destination-head-left">
+        <video src="assets/video.mp4" autoplay loop></video>
+      </div>
+      <div class="destination-head-right">
+        <div class="tags">
+          <p class="tag">travel</p>
+          <p class="tag">best of the world</p>
+        </div>
+        <h2>20 of the coolest travel adventures for 2024
+        </h2>
+        <p class="p-tag">From a horseback safari in Kenya to river rafting in West Virginia, here’s our ranked list of
+          the top travel
+          experiences right now.
+
+        </p>
+      </div>
+    </div>
+    <div class="destination-cards container">
+      <div class="destination-card">
+        <h2>#1: Go on horseback safari in Kenya</h2>
+        <img src="assets/card01.avif" alt="">
+        <p>A safari in Africa usually conjures an image of mud-spattered 4x4 vehicles bouncing through the bush. But
+          there’s another way to travel: on horseback.
+
+        </p>
+        <p>Although horse safaris originated in Kenya in the 1970s, they’re a perfect fit for today’s growing number of
+          travelers looking for more engaging, sustainable wildlife encounters. At the 32,000-acre Borana Conservancy,
+          two stables house thoroughbreds and ex-polo ponies for riders of all skill levels. Visitors can book half-day,
+          full-day, or overnight rides. July through September is the prime time to go.
+
+        </p>
+        <p>Since wildlife perceive equines as just another animal, exploring the landscape atop a horse makes for an
+          intimate experience. “To journey on horseback is to break down the walls—meant to protect but also to
+          separate—between oneself and the natural world,” says Nichole Sobecki, a photographer and equestrian who’s
+          ridden in Borana. “Your horse is a translator, responding to the low growl of the lion, the soft scent of a
+          herd of elephants.” A horse’s ears are an advance warning system, she says, helping knowledgeable guides
+          navigate routes.
+
+        </p>
+      </div>
+      <div class="destination-card">
+        <h2>#2: Run an Olympic marathon in Paris</h2>
+        <img src="assets/card02.avif" alt="">
+        <p>For the first time, members of the public will be able to run their own marathon during the 2024 Summer
+          Olympics, in Paris, France, just one initiative aimed at creating a more inclusive Games.
 
 
+
+        </p>
+        <p>Slated to be held the evening of August 10, between the men’s and women’s official races, the Marathon for
+          All will allow 20,024 qualifying lottery winners on the 26.2-mile route that links Paris and Versailles, a
+          loop beginning at the Hôtel de Ville (City Hall) and passing through nine arrondissements before finishing at
+          Les Invalides on the banks of the Seine. Before or after the big event, learn the route to follow in their
+          tracks.
+
+
+
+        </p>
+
+      </div>
+      <div class="destination-card">
+        <h2>#3: Bear watch in Katmai National Park
+        </h2>
+        <img src="assets/card03.avif" alt="">
+        <p>Alaska’s Katmai National Park is home to one of the highest concentrations of brown bears in the world. Far
+          from the crowded viewing platforms of the Brooks Camp Visitor Center, a guided trip along the Katmai coast
+          with outfitters like AK Adventures reveals a different side of the park.
+
+        </p>
+        <p>Here, the bears feast on a diversity of foods: sedges, grasses, razor clams, salmon. “For me, seeing a single
+          brown bear in the wild is meaningful because it is a sign that the landscape is healthy enough to support it,”
+          says Alaska photographer Acacia Johnson, a frequent National Geographic contributor.
+
+        </p>
+
+      </div>
+      <div class="destination-card">
+        <h2>#4: Cruise an epic river in Colombia
+
+        </h2>
+        <img src="assets/card04.avif" alt="">
+        <p>About 80 percent of Colombia’s population lives in the river basin of the Magdalena, which flows for nearly a
+          thousand miles from the Andes to the Caribbean. AmaWaterways’ new cruises on the river—said to be the first by
+          a major cruise operator—take seven-night trips from Cartagena via Mompós to Barranquilla. Stops at colonial
+          towns, performances of vallenato and cumbia music, and visits to a stilt-house village highlight the region’s
+          culture along this mighty waterway.
+        </p>
+
+
+      </div>
+      <div class="destination-card">
+        <h2>#5: Road trip Route 66 in New Mexico </h2>
+        <img src="assets/card05.avif" alt="">
+        <p>For nearly a century, Route 66 has beckoned to travelers. A trip along the Mother Road through New Mexico
+          hits timeless landmarks, such as quirky motels and curio shops in and around Tucumcari and symbolic etchings
+          in Petroglyph National Monument. In Gallup—mentioned as one of the places to “get your kicks” in Nat King
+          Cole’s 1946 hit song “Route 66”—you can take in performances featuring Zuni, Lakota, and Diné (Navajo)
+          dancers.
+
+
+        </p>
+        <p>Some 18 miles of the highway traverse Albuquerque, the longest urban interlude of the route in the United
+          States. And it’s getting a half-million-dollar glow-up with the ongoing restoration of vintage neon signs
+          along Central Avenue.
+
+        </p>
+        <p>While cruising down the brightened strip, stop at the new West Central Route 66 Visitor Center, with its
+          museum and outdoor amphitheater. The center will host events like lowrider car shows, drive-in movies, and
+          artisan markets.
+
+        </p>
+
+
+      </div>
+      <div class="destination-card">
+        <h2>#6: Explore ancient art in Algeria
+        </h2>
+        <img src="assets/card06.avif" alt="">
+        <p>Algeria is home to Africa’s largest national park, which holds one of the world’s greatest concentrations of
+          ancient rock art. Tassili n’Ajjer National Park is a geologic wonderland of sandstone towers, arches, and
+          sculpted outcrops. But these rock forests are only half the story.
+
+
+
+
+        </p>
+        <p>Neolithic herders and hunter-gatherers carved 15,000 petroglyphs here, including images of elephants,
+          giraffes, and rhinos. These animals are more commonly associated with sub-Saharan Africa—a hint that this arid
+          wilderness was once a grassland crisscrossed by waterways. Five- to seven-day guided tours with Fancy Yellow
+          take in the most spectacular works of Tassili’s art, like the “Crying Cows,” engraved at the base of a stone
+          pinnacle 7,000 years ago.
+        </p>
+        <p>Travelers with more time might want to combine a trip to Tassili with a visit to the Algerian Sahara’s other
+          great geologic marvel: the extraordinary mountain range of Ahaggar National Park.
+        </p>
+      </div>
+      <div class="destination-card">
+        <h2>#7: Wander tea trails in Sri Lanka
+
+        </h2>
+        <img src="assets/card07.avif" alt="">
+        <p>Sri Lanka is virtually synonymous with tea. The island nation is one of the world’s top producers of tea
+          leaves. British colonists introduced the first bushes about 200 years ago. Now visitors can trace the
+          footsteps of historic planters on the new, nearly 200-mile Pekoe Trail, the country’s first long-distance
+          walking route.
+        </p>
+        <p>Starting just outside Kandy, the trail follows the 19th-century tracks upon which workers and horse-drawn
+          carts transported freshly plucked leaves. Hikers pass through hill towns and tea estates and can stop to take
+          a cooking class or savor a cup of aromatic Ceylon tea.
+        </p>
+      </div>
+      <div class="destination-card">
+        <h2>#8: Raft the rapids in West Virginia
+
+
+        </h2>
+        <img src="assets/card08.avif" alt="">
+        <p>Despite its name, West Virginia’s New River is actually one of the oldest on Earth, perhaps as old as 360
+          million years. The river falls 750 feet in only 50 miles between sandstone cliffs. It eventually merges with
+          the Gauley River. Outfitters such as ACE Adventure Resort can arrange whitewater rafting trips here on Class
+          III to V rapids through the longest and deepest river gorge in the Appalachians.
+
+
+        </p>
+
+      </div>
+    </div>
+    <button class="destinations-btn">explore more</button>
+  </section>
+  <!--  Guides -->
+  <section class="guides container">
+    <h2>Adventure Travel Guides</h2>
+    <img src="assets/guide.jpg" alt="" class="guide-head">
+    <!-- A Year on the Road -->
+    <div class="year-road">
+      <h3>A Year on the Road
+      </h3>
+      <div class="road-cards">
+        <div class="road-card">
+          <img src="assets/road01.jpg" alt="">
+          <h4>A Year on the Road (Part 1): Northern British Columbia</h4>
+          <p>Brian and I were less than a week into our adventure north when, during a brief phone call, my dear
+            friend’s children insisted I read their favorite poem, "the Yukon Song." Though written for children
+            extolling the virtues of leaving civilization and...
+          </p>
+        </div>
+        <div class="road-card">
+          <img src="assets/road02.jpg" alt="">
+          <h4>A Year on the Road (Part 2): Canada's Yukon Territory</h4>
+          <p>With the Stewart-Cassiar Highway in our rearview mirror, we had finally reached the Yukon. This was our
+            third trip to Canada’s westernmost territory in a calendar year, and we knew that it would feel incomplete
+            without...
+          </p>
+        </div>
+        <div class="road-card">
+          <img src="assets/road03.jpg" alt="">
+          <h4>A Year on the Road (Part 3): Tombstone Territorial Park</h4>
+          <p>Brian and I had spent four days hiking in Tombstone Territorial Park the previous summer on a trip that
+            just scratched the surface and whet our appetites for more. Throughout the past year, we dreamed of
+            returning to see the classic spires and tundra...
+          </p>
+        </div>
+        <div class="road-card">
+          <img src="assets/road04.jpg" alt="">
+          <h4>A Year on the Road (Part 4): The Dempster Highway</h4>
+          <p>The arctic landscape has an allure that is difficult to describe; not only is it reminiscent of being in
+            the alpine—stunted trees, big skies, and unimpeded vistas—but the utter remoteness and rawness is
+            palpable...
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="logo">
+      <a href="/" class="nav-logo"><img src="assets/logo.png" alt="">JourneyWise</a>
+    </div>
+    <h4>Add adventure to your inbox</h4>
+    <div class="inbox">
+      <input type="email" name="" id="">
+      <button type="submit">Subscribe</button>
+    </div>
+    <div class="nav-social footer-social">
+      <span><a href=""><i class="fa-brands fa-facebook-f"></i></a></span>
+      <span><a href=""><i class="fa-brands fa-x-twitter"></i> </a></span>
+      <span><a href=""><i class="fa-brands fa-linkedin-in"></i></a></span>
+      <span><a href=""><i class="fa-brands fa-instagram"></i></a></span>
+    </div>
+    <p>© 2024 JourneyWise. All Rights Reserved. No part of this site may be reproduced without our written permission.
+    </p>
+
+
+  </footer>
   <!-- Link To JS file -->
   <script src="JS/script.js"></script>
-  <!-- Link To JQuery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <br><br><br>
 </body>
 
 </html>
